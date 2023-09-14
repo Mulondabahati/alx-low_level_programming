@@ -7,11 +7,11 @@
  */
 void print_all(const char * const format, ...)
 {
-	int i, check_stat;
+	int i, check_stat;/* declaring variables */
 	char *str;
 	va_list spc;
 
-	va_start(spc, format);
+	va_start(spc, format);/* initiallizing var arguments */
 	i = 0;
 	while (format != NULL && format[i] != '\0')
 	{
@@ -19,7 +19,7 @@ void print_all(const char * const format, ...)
 		{
 			case 'i':
 				printf("%d", va_arg(spc, int));
-				check_stat = 0;
+				check_stat = 0;/* check if condition has been mwr */
 				break;
 			case 'f':
 				printf("%f", va_arg(spc, double));
