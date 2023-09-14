@@ -37,6 +37,9 @@ void print_all(const char * const format, ...)
 					str = "(nil)";
 				printf("%s", str);
 				break;
+			default:
+				check_stat = 1;
+				break;
 		}
 		if (format[i + 1] != '\0' && check_stat == 0)
 			printf(", ");
