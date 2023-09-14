@@ -9,11 +9,9 @@ void print_all(const char * const format, ...)
 {
 	int i, check_stat;
 	char *str;
-
 	va_list spc;
 
 	va_start(spc, format);
-
 	i = 0;
 	while (format != NULL && format[i] != '\0')
 	{
