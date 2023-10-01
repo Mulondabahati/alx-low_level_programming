@@ -11,6 +11,6 @@ int _sqrt_helper(int n, int a);
 int is_prime_number(int n);
 int makolo(int n, int div);
 int is_palindrome(char *s);
-int _makolo(char *start, char *end);
+int _makolo(char *start, char *end);int wildcmp(char *s1, char *s2);
 
 #endif
