@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * maim - this multiply two numbers
+ * main - this multiply two numbers
  * @argv: argument vector
  * @argc: argument count
  * Return: (0) or (1)
