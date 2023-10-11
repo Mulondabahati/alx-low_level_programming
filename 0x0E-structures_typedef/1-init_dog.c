@@ -1,5 +1,4 @@
 #include "dog.h"
-#include <stdlib.h>
 /**
  * init_dog - it initialises the dog's info
  * @struct dog: dog's info
