@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * get_nodeint_at_index - makolo knows
  * @head: head
